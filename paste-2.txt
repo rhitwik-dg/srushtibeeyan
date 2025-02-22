@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srushti Classical Hatha Yoga</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="/api/placeholder/60/60" alt="Srushti Logo" class="h-12 w-12 rounded-full">
+                    <span class="ml-3 text-xl font-semibold text-gray-800">Srushti</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-orange-500">About Us</a>
+                    <a href="#programs" class="text-gray-600 hover:text-orange-500">Programs</a>
+                    <a href="#contact" class="text-gray-600 hover:text-orange-500">Contact</a>
+                    <a href="#form" class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">Join Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 bg-gradient-to-r from-orange-50 to-orange-100">
+        <div class="container mx-auto px-6 py-16 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Classical Hatha Yoga</h1>
+            <p class="text-xl text-gray-600 mb-8">Structured by Sadhguru to enrich one's life experiences</p>
+            <a href="#form" class="bg-orange-500 text-white px-8 py-3 rounded-lg hover:bg-orange-600 inline-block">Start Your Journey</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">About Us</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <img src="/api/placeholder/400/300" alt="Yoga Instructor" class="rounded-lg shadow-lg">
+                <div>
+                    <p class="text-gray-600 mb-6">Classical yoga comprises various methods to elevate and purify one's energies and raise one's perception to its peak. Our mission is to preserve and share these ancient practices in their purest form.</p>
+                    <div class="flex items-center">
+                        <img src="/api/placeholder/60/60" alt="Instructor" class="h-12 w-12 rounded-full">
+                        <div class="ml-4">
+                            <p class="font-semibold">Ranjitha Laxman</p>
+                            <p class="text-gray-500">Lead Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Programs</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Introductory Session -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Intro Session" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Introductory Session</h3>
+                        <p class="text-gray-600">Free session to experience simple yet powerful yoga practices for daily life. Available in English and Kannada.</p>
+                    </div>
+                </div>
+
+                <!-- Upa Yoga -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Upa Yoga" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Upa Yoga</h3>
+                        <p class="text-gray-600">A simple yet powerful system that activates joints, muscles, and energy system to relieve physical stress.</p>
+                    </div>
+                </div>
+
+                <!-- Surya Kriya -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Surya Kriya" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4">Surya Kriya</h3>
+                        <p class="text-gray-600">Ancient yogic practice designed for holistic wellness, activating solar plexus and balancing energy channels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-2xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-orange-500 text-xl w-8"></i>
+                            <div class="ml-4">
+                                <p class="font-semibold">Location</p>
+                                <p class="text-gray-600">House No. 75, 1st Floor<br>Achyuth Nagar, Parkala<br>Udupi - 576107</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-orange-500 text-xl w-8"></i>
+                            <div class="ml-4">
+                                <p class="font-semibold">Phone</p>
+                                <p class="text-gray-600">+91 9741299728</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-orange-500 text-xl w-8"></i>
+                            <div class="ml-4">
+                                <p class="font-semibold">Email</p>
+                                <p class="text-gray-600">srushticlassicalhathayoga@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Interest Form -->
+                    <div id="form" class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-4">Express Interest</h3>
+                        <form class="space-y-4">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-orange-500">
+                            <input type="email" placeholder="Email Address" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-orange-500">
+                            <input type="tel" placeholder="Phone Number" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-orange-500">
+                            <select class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-orange-500">
+                                <option>Select Program</option>
+                                <option>Introductory Session</option>
+                                <option>Upa Yoga</option>
+                                <option>Surya Kriya</option>
+                            </select>
+                            <button type="submit" class="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <img src="/api/placeholder/60/60" alt="Certification" class="h-16">
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-gray-400">© 2024 Srushti Classical Hatha Yoga</p>
+                    <p class="text-gray-400">All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
